@@ -20,4 +20,4 @@ set to the absolute or relative path to a directory containing the source
 documents.
 
 
-usage: compare_ctakes.py -c <ctakes output directory> [-s <source directory>]')
+    usage: compare_ctakes.py -c <ctakes output directory> [-s <source directory>]
