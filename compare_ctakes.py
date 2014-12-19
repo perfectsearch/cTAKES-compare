@@ -53,7 +53,7 @@ def readcTakesResult(path, filename, cuiDict):
         elif parts[0] == '<uima.cas.FSArray' and len(umlsConceptDict) > 0:
             ontologyRefId = parts[1].split('"')[1]
             size = int(parts[2].split('"')[1])
-            for i in range(1, size):
+            for i in range(0, size):
                 line = f.readline().strip()
                 umlsConceptId = line.partition('>')[2].partition('<')[0]
                 cui = umlsConceptDict[umlsConceptId]
